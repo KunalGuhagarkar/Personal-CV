@@ -49,3 +49,47 @@ This project implements a standard personal resume/CV using semantically meaning
 ├── style.css         # Linked stylesheet (ready for CSS implementation)
 └── images/
     └── Kunal.png     # Favicon asset
+```
+
+---
+
+## HTML Document Outline
+
+``` text
+Document (index.html)
+ ├── <head>
+ │    ├── Meta (UTF-8, Viewport, Author, Description)
+ │    ├── Open Graph Tags (type, title, description)
+ │    ├── Favicon Link
+ │    └── Page Title
+ └── <body>
+      ├── <header>
+      │    ├── Name & Title (h1, h3)
+      │    ├── Contact Address (<address>)
+      │    └── Social / Email Links (div.links-container)
+      └── <main>
+           ├── <section id="intro-container"> (Professional Summary)
+           ├── <section id="skill-container"> (Frontend, Backend, DB, UI/UX, Tools)
+           ├── <section id="education-container"> (MCA & BSc IT Qualifications)
+           └── <section id="certification-container"> (META Certifications)
+```
+
+## Quick Start
+
+1. Clone the repository:
+``` bash
+git clone [https://github.com/KunalGuhagarkar/semantic-html-cv.git](https://github.com/KunalGuhagarkar/semantic-html-cv.git)
+cd semantic-html-cv
+```
+2. Run locally:
+Open index.html in any web browser, or launch it using VS Code's Live Server extension.
+
+## Next Steps & Enhancements
+- CSS Styling: Apply visual formatting via CSS Grid or Flexbox in style.css.
+
+- Extended OG Tags: Add an og:image meta property to display a visual snippet when sharing link previews on social platforms.
+
+- Accessibility Audit: Validate with Lighthouse or WAVE tools for WCAG compliance.
+
+## License
+Distributed under the MIT License.
