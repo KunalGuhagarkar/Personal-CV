@@ -21,6 +21,7 @@ header > h1 {
 
 header > h3 {
     margin-top: 0;
+    margin-bottom: 20px;
     color: #24B1B1;
 }
 
@@ -29,6 +30,10 @@ header > hr {
     background-color: black;
     border: none;
     height: 4px;
+}
+
+header > address {
+    margin-bottom: 20px;
 }
 
 .links-container > p{
@@ -43,9 +48,13 @@ header > hr {
     text-decoration: underline;
 }
 
+/* main */
+main {
+    margin-top: 20px;
+}
+
 /* Intro Section */
 #intro-container {
-    margin-top: 30px;
     width: 75%;
 }
 
@@ -56,7 +65,7 @@ header > hr {
 
 /* Skill Section */
 #skill-container {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 75%;
 }
 
@@ -72,7 +81,7 @@ header > hr {
 
 /* Education Section */
 #education-container {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 75%;
 }
 
@@ -93,7 +102,7 @@ header > hr {
 
 /* Certification Container */
 #certification-container {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 75%;
 }
 
