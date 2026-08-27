@@ -78,16 +78,19 @@ Document (index.html)
 ## Quick Start
 
 1. Clone the repository:
+
     ``` bash
     git clone [https://github.com/KunalGuhagarkar/semantic-html-cv.git](https://github.com/KunalGuhagarkar/semantic-html-cv.git)
     cd semantic-html-cv
     ```
+
 2. Run locally:
-Open index.html in any web browser, or launch it using VS Code's Live Server extension.
+    Open index.html in any web browser, or launch it using VS Code's Live Server extension.
 
 ---
 
 ## Next Steps & Enhancements
+
 - CSS Styling: Apply visual formatting via CSS Grid or Flexbox in style.css.
 
 - Extended OG Tags: Add an og:image meta property to display a visual snippet when sharing link previews on social platforms.
@@ -97,4 +100,5 @@ Open index.html in any web browser, or launch it using VS Code's Live Server ext
 ---
 
 ## License
+
 Distributed under the MIT License.
