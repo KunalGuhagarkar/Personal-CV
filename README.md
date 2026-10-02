@@ -82,8 +82,8 @@ Document (index.html)
 1. Clone the repository:
 
     ``` bash
-    git clone [https://github.com/KunalGuhagarkar/semantic-html-cv.git](https://github.com/KunalGuhagarkar/semantic-html-cv.git)
-    cd semantic-html-cv
+    git clone https://github.com/KunalGuhagarkar/Personal-CV.git
+    cd Personal-Portfolio
     ```
 
 2. Run locally:
